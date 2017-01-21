@@ -1,0 +1,19 @@
+{
+  "name": "arena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Run4curry/Arena.git"
+  },
+  "author": "Justin and Shiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Run4curry/Arena/issues"
+  },
+  "homepage": "https://github.com/Run4curry/Arena#readme"
+}
