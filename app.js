@@ -9,7 +9,7 @@ var index = require('./routes/index');
 
 app.use(express.static(__dirname + '/views'));
 app.use(bodyParser.urlencoded({extended : true}));
-
+app.use(express.static(__dirname + '/public'));
 app.get('/', index.index);
 
 app.listen(PORT, function(){
