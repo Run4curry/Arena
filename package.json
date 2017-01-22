@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/Run4curry/Arena#readme",
   "dependencies": {
+    "aws-sdk": "^2.7.27",
     "body-parser": "^1.16.0",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "passport": "^0.3.2",
+    "s3fs": "^2.5.0"
   }
 }
