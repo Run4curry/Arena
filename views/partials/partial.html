@@ -1,0 +1,10 @@
+ <h1>Hello there! Welcome to Single Page Applications!</h1>
+    <input type="file" 
+        ngf-select
+        ng-model="file"
+        ngf-pattern = "image/*"
+        accept ="*"
+        ngf-max-size="100MB"
+        />
+    <img ng-src="{{file}}"/>
+    <button ng-click="uploadFile()">Upload This!!!</button> 
