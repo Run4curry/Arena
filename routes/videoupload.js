@@ -12,8 +12,8 @@ var AWS = require('aws-sdk');
 //NOTE TODO, ONLY PUSH TO GITHUB AND HOSTING SERVICE
 //ONCE THIS HIDDEN
 var params = {
-    accessKeyId : 'AKIAJ75XUCHM6C3HWFWQ',
-    secretAccessKey : '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'
+    accessKeyId : '',
+    secretAccessKey : ''
 };
 
 var s3 = new AWS.S3(params);//create instance of s3 that will allow us to write the file to our cloud storage
