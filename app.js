@@ -20,7 +20,7 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', index.index);
 
 //video API
-//This app.use() express call handles all types of requests to /video route.
+//This app.use() express call handles all types of requests to '/video' route.
 //It handles the route by redirecting the user to the ./routes/videoupload.js
 //which then handles the different types of calls.
 app.use('/video', video);

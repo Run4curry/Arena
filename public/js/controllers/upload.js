@@ -1,3 +1,5 @@
+//TODO this function sends the post request to where? What is $http referring
+//to? How will videoupload.js get a hold of this file? 
 function uploadController($scope , $http){
     $scope.file;
 
