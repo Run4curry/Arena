@@ -1,13 +1,5 @@
  <h1>Hello there! Welcome to Single Page Applications!</h1>
-    <input type="file"
-        ngf-select
-        ng-model="file"
-        ngf-pattern = "image/*"
-        accept ="*"
-        ngf-max-size="100MB"
-        />
-    <img ng-src="{{file}}"/>
-    <!--on click, calls uploadFile function in public/js/controllers/upload.js
-    in the index.html where this code is injected, we include
-    that upload.js file.-->
-    <button ng-click="uploadFile()">Upload This!!!</button>
+ <form>
+    <input type="file" file-model="file"/>
+    <button type="submit" ng-click="uploadFile()">Submit</button>
+</form>
