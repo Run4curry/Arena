@@ -9,8 +9,10 @@ var index = require('./routes/index');
 var video = require('./routes/videoupload');
 
 app.use(express.static(__dirname + '/views'));
-app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/public'));
+
 
 //render the index page, single page application with partials that
 //we will inject into the index page whenever the view needs to change
