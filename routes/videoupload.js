@@ -68,6 +68,7 @@ router.post('/', upload.single('file') , function(req,res){
             method should be straightforward 
             
              */
+            console.log(response);
             res.json(response);
         }
     });
